@@ -1,0 +1,23 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+.env
+*.env
+.env.local
+!.env.example 
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+.DS_Store
+Thumbs.db
+.vscode/        # Optional: ignore if you don't want to push your custom workspace settings
+!.vscode/settings.json # Optional: keep this if you share uniform project extensions
