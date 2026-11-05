@@ -1,23 +1,24 @@
-# Python Virtual Environments
+# Virtual environments
 .venv/
 venv/
-ENV/
 env/
-
+ 
+# Secrets - NEVER commit these
 .env
-*.env
-.env.local
-!.env.example 
+ 
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-.coverage
-htmlcov/
-.mypy_cache/
-.ruff_cache/
-
+*.pyc
+ 
+# Notebook checkpoints
+.ipynb_checkpoints/
+ 
+# Editor / OS files
+.vscode/
 .DS_Store
 Thumbs.db
-.vscode/        # Optional: ignore if you don't want to push your custom workspace settings
-!.vscode/settings.json # Optional: keep this if you share uniform project extensions
+ 
+# Local data and databases
+*.db
+*.sqlite3
+ 
