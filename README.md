@@ -1,108 +1,119 @@
-# Python for AI Engineering 🐍
+# Python for AI Engineering
 
-A practical journey through Python concepts and tools needed to build AI-powered applications.
+A free, practical, week-by-week path from **zero Python** to **building real AI applications**: calling LLMs, structured output, chatbots with memory, databases, and a deployed capstone.
 
-This repository documents my learning and hands-on practice as I strengthen my Python foundation for AI engineering.
+New lessons are released **every week**. Follow along, run the code, do the exercises, and build something each week.
 
-Rather than just learning Python syntax, I want to understand how to write Python code, structure applications, work with data, interact with LLMs, and build reliable AI systems.
+> Built in public. If this helps you, give the repo a ⭐ and share your progress.
 
-## 🎯 What This Repository Covers
+---
 
-The repository will grow gradually as I explore and implement concepts across different areas:
+## Who this is for
 
-### 1. Python Fundamentals
-- Variables and Data Types
-- Lists, Tuples, Sets, and Dictionaries
-- Conditional Statements
-- Loops
-- Functions
-- List Comprehensions
-- Exception Handling
-- Modules and Packages
+- Complete beginners who want to become AI engineers
+- Developers from other languages who want the Python AI toolkit
+- Students who learn best by building small projects
 
-### 2. Object-Oriented Programming
-- Classes and Objects
-- Constructors
-- Inheritance
-- Encapsulation
-- Polymorphism
-- Methods and Attributes
+**No prior programming experience needed.** You only need a computer and curiosity.
 
-### 3. Python for Data Handling
-- Working with JSON
-- Reading and Writing Files
-- Working with APIs
-- Data Manipulation with Pandas
-- NumPy Fundamentals
+---
 
-### 4. Python for AI Engineering
-- Type Hints
-- Pydantic and Data Validation
-- Environment Variables
-- Working with LLM APIs
-- Structured Outputs
-- Prompt Engineering
-- Asynchronous Python
-- Logging and Error Handling
+## How the repo works
 
-### 5. Building AI Applications
-- Calling LLMs from Python
-- Managing Conversation History
-- Working with Embeddings
-- Introduction to RAG
-- Building Simple AI Agents
-- Working with LangChain and LangGraph
+Every week lives in its own folder and follows the same layout:
 
-## 📂 Repository Structure
-
-The repository will be organized by topic, with each folder containing practical code examples and explanations.
-
-```text
-python-for-ai-engineering/
-│
-├── 01_python_fundamentals/
-│   ├── variables.py
-│   ├── data_types.py
-│   ├── lists.py
-│   ├── tuples.py
-│   └── dictionaries.py
-│
-├── 02_control_flow/
-│
-├── 03_functions/
-│
-├── 04_oop/
-│
-├── 05_data_handling/
-│
-├── 06_type_hints/
-│
-├── 07_pydantic/
-│
-├── 08_working_with_llms/
-│
-├── 09_structured_outputs/
-│
-└── README.md
+```
+week-XX-topic/
+├── README.md        # concept, why it matters for AI, setup notes
+├── lesson.ipynb     # explained, runnable walkthrough (notebook)
+├── *.py             # script versions of the code
+├── exercises.py     # practice tasks with TODOs
+├── solutions.py     # try first, peek later
+└── mini_project/    # a small build using the week's ideas
 ```
 
-*The structure will evolve as I progress.*
+- **Notebooks** (`.ipynb`) are used when you need to experiment and see results step by step.
+- **Scripts** (`.py`) are used when the code should run like a real program.
 
-## 🛠️ Learning Approach
+Each week's README tells you which file to open first.
 
-For every topic, I intend to:
+---
 
-1. Understand the concept and why it matters.
-2. Write Python code to explore it.
-3. Work through practical examples.
-4. Apply the concept to AI engineering use cases where relevant.
+## Roadmap
 
-## 🚀 Why This Repository?
+| Week | Topic | You will build | Status |
+|---|---|---|---|
+| [00](./week-00-setup) | Setup: Python, venv/uv, VS Code, Git, running a script | "Hello AI" script | ✅ Available |
+| 01 | Python basics: variables, data types, strings, conditionals | Tip/budget calculator | 🔜 Soon |
+| 02 | Collections and loops: lists, tuples, dicts, sets, comprehensions | Word-frequency counter | 🔜 Soon |
+| 03 | Functions: args, kwargs, scope, type hints, lambdas | Text-cleaning toolkit | 🔜 Soon |
+| 04 | Error handling and file handling: try/except, JSON, CSV, `pathlib` | Expense tracker saving to JSON | 🔜 Soon |
+| 05 | Classes and OOP: methods, inheritance, dataclasses | `Message` and `Conversation` classes | 🔜 Soon |
+| 06 | APIs: HTTP, `requests`, auth, env vars, retries | Weather/news fetcher | 🔜 Soon |
+| 07 | Calling an LLM: SDKs, roles, tokens, streaming | CLI Q&A tool | 🔜 Soon |
+| 08 | Structured output: Pydantic, validation, retries | Info extractor for messy text | 🔜 Soon |
+| 09 | Chatbot with memory: history, context limits | Terminal chatbot that remembers | 🔜 Soon |
+| 10 | Databases: SQL, SQLite, CRUD | Chatbot with saved conversations | 🔜 Soon |
+| 11 | AI tools: pandas, NumPy, embeddings, semantic search | Search over your own notes | 🔜 Soon |
+| 12 | Capstone: FastAPI, tests, deployment | An end-to-end AI app | 🔜 Soon |
 
-Python is more than just a programming language in AI engineering. It is one of the tools that connects data, models, APIs, and applications.
+### Your progress
 
-I want to build a strong foundation in the language so I can write better code, understand AI systems more deeply, and build reliable AI-powered products.
+- [ ] Week 00: Setup
+- [ ] Week 01: Python basics
+- [ ] Week 02: Collections and loops
+- [ ] Week 03: Functions
+- [ ] Week 04: Error handling and files
+- [ ] Week 05: Classes and OOP
+- [ ] Week 06: APIs
+- [ ] Week 07: Calling an LLM
+- [ ] Week 08: Structured output
+- [ ] Week 09: Chatbot with memory
+- [ ] Week 10: Databases
+- [ ] Week 11: AI tools
+- [ ] Week 12: Capstone
 
-This is a work in progress. Learning, experimenting, building, and documenting along the way.
+---
 
-**Let's build!**
+## Quick start
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/<your-username>/python-for-ai-engineering.git
+cd python-for-ai-engineering
+
+# 2. Create and activate a virtual environment
+python -m venv .venv
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+# macOS / Linux
+source .venv/bin/activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Copy the env template (you'll add API keys from Week 6 onward)
+cp .env.example .env
+```
+
+Not sure about any of these steps? **Start with [Week 00](./week-00-setup)**. It explains every one of them.
+
+---
+
+## Rules of the road
+
+1. **Type the code yourself.** Copy-pasting teaches you very little.
+2. **Do the exercises before opening solutions.**
+3. **Never commit API keys.** Keys live in `.env`, which is git-ignored.
+4. **Stuck?** Open a GitHub Issue or start a Discussion. Questions help the next learner too.
+
+---
+
+## Contributing
+
+Found a typo, a broken command, or a clearer way to explain something? Pull requests and issues are welcome.
+
+## License
+
+MIT. Use it, learn from it, and share it.
