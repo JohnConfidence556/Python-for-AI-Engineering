@@ -41,21 +41,21 @@ Each week's README tells you which file to open first.
 
 ## Roadmap
 
-| Week | Topic | You will build | Status |
+| Week | Topic | We will build | Status |
 |---|---|---|---|
 | [00](./week-00-setup) | Setup: Python, venv/uv, VS Code, Git, running a script | "Hello AI" script | ✅ Available |
-| 01 | Python basics: variables, data types, strings, conditionals | Tip/budget calculator | 🔜 Soon |
-| 02 | Collections and loops: lists, tuples, dicts, sets, comprehensions | Word-frequency counter | 🔜 Soon |
-| 03 | Functions: args, kwargs, scope, type hints, lambdas | Text-cleaning toolkit | 🔜 Soon |
-| 04 | Error handling and file handling: try/except, JSON, CSV, `pathlib` | Expense tracker saving to JSON | 🔜 Soon |
-| 05 | Classes and OOP: methods, inheritance, dataclasses | `Message` and `Conversation` classes | 🔜 Soon |
-| 06 | APIs: HTTP, `requests`, auth, env vars, retries | Weather/news fetcher | 🔜 Soon |
-| 07 | Calling an LLM: SDKs, roles, tokens, streaming | CLI Q&A tool | 🔜 Soon |
-| 08 | Structured output: Pydantic, validation, retries | Info extractor for messy text | 🔜 Soon |
+| 01 | Python basics: variables, data types, strings, conditionals | to be updated | 🔜 Soon |
+| 02 | Collections and loops: lists, tuples, dicts, sets, comprehensions | to be updated | 🔜 Soon |
+| 03 | Functions: args, kwargs, scope, type hints, lambdas | to be updated | 🔜 Soon |
+| 04 | Error handling and file handling: try/except, JSON, CSV, `pathlib` | to be updated | 🔜 Soon |
+| 05 | Classes and OOP: methods, inheritance, dataclasses | to be updated | 🔜 Soon |
+| 06 | APIs: HTTP, `requests`, auth, env vars, retries | to be updated | 🔜 Soon |
+| 07 | Calling an LLM: SDKs, roles, tokens, streaming | to be updated | 🔜 Soon |
+| 08 | Structured output: Pydantic, validation, retries | to be updated | 🔜 Soon |
 | 09 | Chatbot with memory: history, context limits | Terminal chatbot that remembers | 🔜 Soon |
-| 10 | Databases: SQL, SQLite, CRUD | Chatbot with saved conversations | 🔜 Soon |
-| 11 | AI tools: pandas, NumPy, embeddings, semantic search | Search over your own notes | 🔜 Soon |
-| 12 | Capstone: FastAPI, tests, deployment | An end-to-end AI app | 🔜 Soon |
+| 10 | Databases: SQL, SQLite, CRUD | to be updated | 🔜 Soon |
+| 11 | AI tools: pandas, NumPy, embeddings, semantic search | to be updated | 🔜 Soon |
+| 12 | Capstone: FastAPI, tests, deployment | to be updated | 🔜 Soon |
 
 ### Your progress
 
