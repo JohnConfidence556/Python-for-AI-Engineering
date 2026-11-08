@@ -146,7 +146,8 @@ It will ask for your name, then print a short summary of your setup. The same id
 1. Create a new virtual environment called `.venv-test`, activate it, run `pip list`, and delete it afterwards. What do you notice about the package list?
 2. Edit `hello_ai.py` to also ask for your favourite programming language and print it back.
 3. Make a commit with a message that describes your change, then push it to GitHub.
-4. Open `lesson.ipynb`, run every cell, and add one cell of your own that prints today's date.
+4. Open `setup.ipynb`, run every cell, and add one cell of your own that does the given task.
+5. Having issues? check the `solution-for-variable-task.ipynb` file.
 
 ---
 
