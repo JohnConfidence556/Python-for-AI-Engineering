@@ -45,7 +45,7 @@ If these feel solid, the rest of the course gets much easier.
 
 ## How to work through this week
 
-1. Open `lesson.ipynb` in VS Code and select your `.venv` kernel.
+1. Open `1.1_lesson.ipynb`, `1.2_data_type.ipynb`, `1.3_conditionals.ipynb`, `1.4_mini_task.ipynb`  in VS Code and select your `.venv` kernel.
 2. Run every cell. **Change values and rerun** to see what happens.
 3. Open `exercises.py`, replace each `None` with your answer, and run:
 
@@ -57,7 +57,7 @@ If these feel solid, the rest of the course gets much easier.
 4. Run the mini project:
 
    ```bash
-   python mini_project/cost_calculator.py
+   python cost_calculator.py
    ```
 
 5. Compare with `solutions.py`.
@@ -115,4 +115,4 @@ Tip: try the 'small' tier, or shorten the response length.
 - [ ] All 9 exercises show ✅
 - [ ] I ran the cost calculator with my own numbers
 
-**Next:** Week 02, collections and loops (lists, tuples, dicts, sets, `for`/`while`, comprehensions).
+**Next:** part 02, collections and loops (lists, tuples, dicts, sets, `for`/`while`, comprehensions).
