@@ -1,8 +1,8 @@
 # Python for AI Engineering
 
-A free, practical, week-by-week path from **zero Python** to **building real AI applications**: calling LLMs, structured output, chatbots with memory, databases, and a deployed capstone.
+A free, practical, part-by-part path from **zero Python** to **building real AI applications**: calling LLMs, structured output, chatbots with memory, databases, and a deployed capstone.
 
-New lessons are released **every week**. Follow along, run the code, do the exercises, and build something each week.
+New parts are released **every week**. Follow along, run the code, do the exercises, and build something in each part.
 
 > Built in public. If this helps you, give the repo a ⭐ and share your progress.
 
@@ -20,58 +20,58 @@ New lessons are released **every week**. Follow along, run the code, do the exer
 
 ## How the repo works
 
-Every week lives in its own folder and follows the same layout:
+Every part lives in its own folder and follows the same layout:
 
 ```
-week-XX-topic/
+part-XX-topic/
 ├── README.md        # concept, why it matters for AI, setup notes
 ├── lesson.ipynb     # explained, runnable walkthrough (notebook)
 ├── *.py             # script versions of the code
 ├── exercises.py     # practice tasks with TODOs
 ├── solutions.py     # try first, peek later
-└── mini_project/    # a small build using the week's ideas
+└── mini_project/    # a small build using the part's ideas
 ```
 
 - **Notebooks** (`.ipynb`) are used when you need to experiment and see results step by step.
 - **Scripts** (`.py`) are used when the code should run like a real program.
 
-Each week's README tells you which file to open first.
+Each part's README tells you which file to open first.
 
 ---
 
 ## Roadmap
 
-| Week | Topic | We will build | Status |
+| Part | Topic | You will build | Status |
 |---|---|---|---|
-| [00](./week-00-setup) | Setup: Python, venv/uv, VS Code, Git, running a script | "Hello AI" script | ✅ Available |
-| 01 | Python basics: variables, data types, strings, conditionals | to be updated | 🔜 Soon |
-| 02 | Collections and loops: lists, tuples, dicts, sets, comprehensions | to be updated | 🔜 Soon |
-| 03 | Functions: args, kwargs, scope, type hints, lambdas | to be updated | 🔜 Soon |
-| 04 | Error handling and file handling: try/except, JSON, CSV, `pathlib` | to be updated | 🔜 Soon |
-| 05 | Classes and OOP: methods, inheritance, dataclasses | to be updated | 🔜 Soon |
-| 06 | APIs: HTTP, `requests`, auth, env vars, retries | to be updated | 🔜 Soon |
-| 07 | Calling an LLM: SDKs, roles, tokens, streaming | to be updated | 🔜 Soon |
-| 08 | Structured output: Pydantic, validation, retries | to be updated | 🔜 Soon |
+| [00](./part-00-setup) | Setup: Python, venv/uv, VS Code, Git, running a script | "Hello AI" script | ✅ Available |
+| [01](./part-01-python-basics) | Python basics: variables, data types, strings, conditionals | LLM cost calculator | ✅ Available |
+| [02](./part-02-collections-and-loops) | Collections and loops: lists, tuples, dicts, sets, loops, comprehensions | Chat log analyzer | ✅ Available |
+| 03 | Functions: args, kwargs, scope, type hints, lambdas | Text-cleaning toolkit | 🔜 Soon |
+| 04 | Error handling and file handling: try/except, JSON, CSV, `pathlib` | Expense tracker saving to JSON | 🔜 Soon |
+| 05 | Classes and OOP: methods, inheritance, dataclasses | `Message` and `Conversation` classes | 🔜 Soon |
+| 06 | APIs: HTTP, `requests`, auth, env vars, retries | Weather/news fetcher | 🔜 Soon |
+| 07 | Calling an LLM: SDKs, roles, tokens, streaming | CLI Q&A tool | 🔜 Soon |
+| 08 | Structured output: Pydantic, validation, retries | Info extractor for messy text | 🔜 Soon |
 | 09 | Chatbot with memory: history, context limits | Terminal chatbot that remembers | 🔜 Soon |
-| 10 | Databases: SQL, SQLite, CRUD | to be updated | 🔜 Soon |
-| 11 | AI tools: pandas, NumPy, embeddings, semantic search | to be updated | 🔜 Soon |
-| 12 | Capstone: FastAPI, tests, deployment | to be updated | 🔜 Soon |
+| 10 | Databases: SQL, SQLite, CRUD | Chatbot with saved conversations | 🔜 Soon |
+| 11 | AI tools: pandas, NumPy, embeddings, semantic search | Search over your own notes | 🔜 Soon |
+| 12 | Capstone: FastAPI, tests, deployment | An end-to-end AI app | 🔜 Soon |
 
 ### Your progress
 
-- [ ] Week 00: Setup
-- [ ] Week 01: Python basics
-- [ ] Week 02: Collections and loops
-- [ ] Week 03: Functions
-- [ ] Week 04: Error handling and files
-- [ ] Week 05: Classes and OOP
-- [ ] Week 06: APIs
-- [ ] Week 07: Calling an LLM
-- [ ] Week 08: Structured output
-- [ ] Week 09: Chatbot with memory
-- [ ] Week 10: Databases
-- [ ] Week 11: AI tools
-- [ ] Week 12: Capstone
+- [ ] Part 00: Setup
+- [ ] Part 01: Python basics
+- [ ] Part 02: Collections and loops
+- [ ] Part 03: Functions
+- [ ] Part 04: Error handling and files
+- [ ] Part 05: Classes and OOP
+- [ ] Part 06: APIs
+- [ ] Part 07: Calling an LLM
+- [ ] Part 08: Structured output
+- [ ] Part 09: Chatbot with memory
+- [ ] Part 10: Databases
+- [ ] Part 11: AI tools
+- [ ] Part 12: Capstone
 
 ---
 
@@ -79,8 +79,8 @@ Each week's README tells you which file to open first.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/python-for-ai-engineering.git
-cd python-for-ai-engineering
+git clone https://github.com/JohnConfidence556/Python-for-AI-Engineering.git
+cd Python-for-AI-Engineering
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
@@ -93,11 +93,11 @@ source .venv/bin/activate
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Copy the env template (you'll add API keys from Week 6 onward)
+# 4. Copy the env template (you'll add API keys from Part 6 onward)
 cp .env.example .env
 ```
 
-Not sure about any of these steps? **Start with [Week 00](./week-00-setup)**. It explains every one of them.
+Not sure about any of these steps? **Start with [Part 00](./part-00-setup)**. It explains every one of them.
 
 ---
 
